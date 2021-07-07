@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/creerNouveauCompte"
+        android:title="Créer un nouveau compte"
+        app:showAsAction="never" />
+    <item
+    android:id="@+id/effacerCompte"
+    android:title="Effacer un compte"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/modiferCompte"
+        android:title="Modifier un compte"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/obtenirInformationCompte"
+        android:title="Obtenir les informations d'un compte"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/obtenirComptesDelinquants"
+        android:title="Obtenir la liste des comptes délinquants"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/modifierCreditCompte"
+        android:title="Modifier le crédit d'un compte"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/modifierSoldeCompte"
+        android:title="Modifier le solde d'un compte"
+        app:showAsAction="never" />
+</menu>

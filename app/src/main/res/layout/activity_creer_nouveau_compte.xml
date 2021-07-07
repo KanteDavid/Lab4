@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".creerNouveauCompte">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Créer un nouveau compte!" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/newNom"
+                android:hint="Nom"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/newPrenom"
+                android:hint="Prenom"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/newAdresse"
+                android:hint="Adresse"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/newUser"
+            android:hint="User"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/newPW"
+                android:hint="Password"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/newSolde"
+                android:hint="Solde"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/newCredit"
+                android:hint="Crédit"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAjout"
+            android:text="Créer ce Compte"/>
+
+    </LinearLayout>
+
+</android.widget.LinearLayout>

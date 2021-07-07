@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modifierCreditCompte">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modifier Crédit de ce Compte!" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/NomModife"
+                android:hint="Nom du compte à Modifier"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/CreditModife"
+                android:hint="Nouveau Crédit"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnModifierCredit"
+            android:text="Modifier le Credit de ce Compte"/>
+
+    </LinearLayout>
+
+</android.widget.LinearLayout>
